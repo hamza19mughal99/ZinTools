@@ -1,0 +1,33 @@
+.card_box {
+    position: relative;
+    text-align: left;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 12px;
+    transition: all .3s;
+    width: auto !important;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card_box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.card_box h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #121212;
+}
+
+.card_box p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(60, 60, 67, 0.6);
+    font-weight: 500;
+}

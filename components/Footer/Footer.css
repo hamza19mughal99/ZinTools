@@ -1,0 +1,146 @@
+footer{
+    background-color: #f1f3f4;
+    padding: 30px 65px;
+    margin-top: 50px;
+}
+
+.social_icon{
+    display: flex;
+}
+
+.social_icon ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin: 0;
+}
+
+.social_icon ul li img{
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.social_icon span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_links{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer_links h6{
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.footer_links ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer_links ul li{
+    font-size: 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer_links ul li:hover{
+    color: #4866e2;
+}
+
+.privacy_policy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.privacy_policy h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+    color: #202020;
+    margin: 0;
+}
+
+.privacy_policy h3 img {
+    background-color: #656FF5;
+    padding: 8px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.privacy_policy .left_footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.privacy_policy .left_footer_logo ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.privacy_policy .left_footer_logo ul li{
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.privacy_policy .left_footer_logo ul li:hover{
+    color: #4866e2;
+}
+
+.privacy_policy .night_icon{
+    background-color: #DEDEDE;
+    border-radius: 100px;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    .privacy_policy .left_footer_logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .privacy_policy .left_footer_logo ul {
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        margin-bottom: 0;
+        padding-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    footer{
+        padding: 30px 15px;
+    }
+
+    .privacy_policy{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

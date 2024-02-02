@@ -1,0 +1,77 @@
+.main_wrapper h2 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.main_wrapper {
+    overflow: hidden;
+    padding: 0 65px;
+    margin-top: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: transparent;
+}
+
+.slider_main .slick-prev {
+    left: -15px;
+}
+
+.slider_main .slick-next {
+    right: -15px;
+}
+
+.slider_main .slick-prev.prev_arrow {
+    background-image: url('../../images/arrow_left.png');
+    background-position: 50%;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.slider_main .slick-next.next_arrow {
+    background-image: url('../../images/arrow_right.png');
+    background-position: 50%;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.bookmark_main{
+    margin-bottom: 25px;
+}
+
+.bookmark_main .col{
+    padding: 0;
+}
+
+.bookmark_main .col:first-child{
+    padding-left: auto !important;
+}
+
+.bookmark_main > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookmark_main .card_box{
+    width: 260px !important;
+}
+
+@media (max-width: 767px) {
+    .main_wrapper{
+        padding: 0 15px;
+    }
+
+    .bookmark_main .card_box {
+        width: 100% !important;
+    }
+}
